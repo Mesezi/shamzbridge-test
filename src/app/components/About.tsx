@@ -5,9 +5,9 @@ import Reveal from './Framer/Reveal';
 
 const About = () => {
   return (
-    <section id='about-us' className="custom-container mx-auto grid grid-cols-1 gap-10 md:grid-cols-[55%,1fr]
+    <section id='about-us' className="custom-container mx-auto grid grid-cols-1 gap-10 lg:grid-cols-[55%,1fr]
      md:min-h-[500px] my-32 md:my-36">
-      <div className="grid grid-cols-[50%,1fr] gap-5 md:gap-8 min-h-[250px] md:h-auto md:py-20">
+      <div className="grid grid-cols-[50%,1fr] gap-5 md:gap-8 min-h-[250px] max-h-[700px] md:h-auto md:py-20">
         <Reveal from='left' className="flex items-center h-full">
           
           <div className="relative aspect-[1.8/2] w-full">

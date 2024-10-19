@@ -52,7 +52,7 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <button className="hidden md:block bg-black px-4 py-3 w-full max-w-[130px] text-white hover:text-black hover:bg-customBlue duration-200 ease-in-out font-normal">
+          <button className="hidden md:block bg-black px-4 py-3 w-full hover:scale-[.95] max-w-[130px] text-white hover:text-black hover:bg-customBlue duration-200 ease-in-out font-normal">
             Get started
           </button>
 
@@ -83,7 +83,7 @@ const Navbar = () => {
             <p className="font-black text-2xl tracking-wider text-customBlue">LOGO</p>
           </Link>
 
-          <button className='text-customBlue' onClick={()=> setOpenMenu(false)}>
+          <button className='text-customBlue hover:scale-[.95]' onClick={()=> setOpenMenu(false)}>
             <GrFormClose size={28}/></button>
             </div>
             

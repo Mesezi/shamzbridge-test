@@ -17,7 +17,7 @@ const Vision = () => {
       className="custom-container mx-auto grid grid-cols-1 gap-10 md:grid-cols-[50%,1fr]
     md:min-h-[500px] my-32 md:my-36"
     >
-      <div className='h-[400px] md:h-auto'>
+      <Reveal from='bottom' className='h-[400px] md:h-full'>
 
       <Swiper
           className="mySwiper h-full w-full"
@@ -25,19 +25,22 @@ const Vision = () => {
           id='service-carousel'
          effect='fade'
           loop={true}
-          autoplay={true} 
+          autoplay={{
+            delay: 1000,
+            disableOnInteraction: false,
+          }}
         slidesPerView={1}
         >
           {images.map((item) => (
             <SwiperSlide className="h-full ">
-              <div className='relative w-full h-full bg-red-400'>
+              <div className='relative w-full h-full'>
                 <Image src={item} alt='vision image' fill className='object-cover'/>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
 
-      </div>
+      </Reveal>
 
       <article className="flex flex-col gap-5">
         <p className="uppercase tracking-widest font-medium text-customBlue">

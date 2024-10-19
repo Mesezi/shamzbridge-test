@@ -40,7 +40,7 @@ const Reveal: React.FC<RevealProps> = ({ children, delay, from, className }) => 
   };
 
   return (
-    <div ref={ref} className={`overflow-hidden `}> {/* Add the passed className */}
+    <div ref={ref} className={`overflow-hidden h-full w-full`}> {/* Add the passed className */}
       <motion.div
         variants={{
           hidden: getInitialVariant(),
