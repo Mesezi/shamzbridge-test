@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Montserrat, Inter, Manrope, Epilogue } from "next/font/google";
+import { Epilogue } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 

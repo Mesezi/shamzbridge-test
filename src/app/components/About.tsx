@@ -64,15 +64,7 @@ const About = () => {
           solutions to comprehensive consultations, we leverage our extensive
           knowledge and experience to drive transformative change and help our
           clients succeed in today's dynamic business environment.
-          {/* <br />
-          <br />
-          What sets us apart is our commitment to understanding our clients'
-          unique challenges and goals. We take a collaborative approach, working
-          closely with each client to develop customized strategies that address
-          their specific needs and objectives. Our team of seasoned
-          professionals brings together a wealth of expertise from various
-          industries, ensuring that we can provide insights and solutions that
-          are both innovative and effective. */}
+    
  </p>
 
  <div className='mt-7'>

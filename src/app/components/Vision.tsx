@@ -31,7 +31,7 @@ const Vision = () => {
           }}
         slidesPerView={1}
         >
-          {images.map((item) => (
+          {images.map((item, idx) => (
             <SwiperSlide className="h-full ">
               <div className='relative w-full h-full'>
                 <Image src={item} alt='vision image' fill className='object-cover'/>

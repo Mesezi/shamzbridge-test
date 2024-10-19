@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
 import { BsArrowRight } from 'react-icons/bs'
-import { FaPhone } from 'react-icons/fa'
 import { MdLocalPhone } from 'react-icons/md'
 import Reveal from './Framer/Reveal'
 

@@ -52,7 +52,6 @@ const lastThreeTestimonials = testimonials.slice(-2);
       <h3 className="text-5xl md:text-[3.5rem] md:leading-[3.5rem] font-medium tracking-wide">
       What they say about us
         </h3></Reveal>
-      
     </div>
     
 
@@ -61,7 +60,7 @@ const lastThreeTestimonials = testimonials.slice(-2);
 
         <Reveal from="bottom" className='space-y-5 '>
         {
-    lastThreeTestimonials.map(item=> <article className='p-10 border flex flex-col hover:border-black gap-5 
+    lastThreeTestimonials.map((item, idx)=> <article key={idx} className='p-10 border flex flex-col hover:border-black gap-5 
      '>
         <span></span>
         <hr />
@@ -83,7 +82,7 @@ const lastThreeTestimonials = testimonials.slice(-2);
 
         <Reveal from="bottom" delay={.4} className='space-y-5 '>
         {
-    firstThreeTestimonials.map(item=> <article className='p-10 border flex flex-col 
+    firstThreeTestimonials.map((item, idx)=> <article key={idx} className='p-10 border flex flex-col 
       hover:border-black gap-5 mt-10
      '>
         <span></span>

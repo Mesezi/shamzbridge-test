@@ -91,8 +91,8 @@ const services = [
             },
           }}
         >
-          {services.map((item) => (
-            <SwiperSlide className="h-full ">
+          {services.map((item, idx) => (
+            <SwiperSlide key={idx} className="h-full ">
               <div className='p-10 border h-full
            hover:border-black flex flex-col gap-3 cursor-pointer group'>
               <span className='h-16 w-16 rounded-full group-hover:-translate-y-2 duration-150 ease-in-out
@@ -107,8 +107,8 @@ const services = [
 
 
 <section className='grid grid-cols-1 sm:grid-cols-2 gap-5 md:hidden'>
-{services.map((item) => (
-            <div className='p-10 border h-full
+{services.map((item, idx) => (
+            <div key={idx} className='p-10 border h-full
             hover:border-black flex flex-col gap-3 cursor-pointer group'>
                <span className='h-16 w-16 rounded-full group-hover:-translate-y-2 duration-150 ease-in-out
                 bg-customBlue flex text-white justify-center items-center'>{item.icon}</span>
