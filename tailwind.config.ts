@@ -8,10 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      screens: {
+        "3xl": "2000px",
+        "4xl": "2400px",
+        xs: "350px",
       },
+    
+    colors: {
+      customSlate: "#6c6c6c",
+      customBlue: "#89CFF0",
+    },
     },
   },
   plugins: [],
